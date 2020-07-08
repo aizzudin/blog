@@ -18,7 +18,7 @@ html, body{
     left: 0;
     bottom: 0;
     width: 18rem;    
-    background-image: url(pics/background pattern.png);
+    background-image: url("pics/background pattern.png");
     background-position: bottom;
 }
 
