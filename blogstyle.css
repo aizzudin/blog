@@ -4,8 +4,6 @@
 }
 
 html, body{
-    height: 100%;
-    width: 100%;
     margin: 0;
     font-family: 'radikal';
  
@@ -13,20 +11,19 @@ html, body{
 
 
 .left-tab {
+    height: 100%;
+    width: 23%;
+    float: left;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;    
-    background-image: url("pics/background pattern.png");
+    background-image: url(/pics/background_pattern.png);
     background-position: bottom;
+    background-size: auto;
 }
 
 
 .container{
-    position: relative;
-    padding: 50px 30px;
     height: 100%;
+    padding: 50px 30px;
     background-color: rgba(255, 253, 253, 0.9);
     text-align: center;
     color: #282b31;
@@ -34,6 +31,7 @@ html, body{
 
 
 .big-icon{
+    margin-top: 8%;
     height: 100px;
     margin-bottom: 40px;
     
@@ -74,11 +72,11 @@ html, body{
 
 
 .main-tab {
+    margin-left: 23%;
+    height: 100%;
+    width: 100%;
     position: fixed;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    left: 18rem;
+    bottom: 0px;
     background-color: #282b31;;
 }
 
@@ -86,6 +84,17 @@ html, body{
 .container2{
     padding-left: 5%;
     height: 100%;
+   
+}
+
+
+.items{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
+    box-sizing: border-box;
+    height: 33.33%;
+    
 }
 
 
@@ -94,30 +103,28 @@ html, body{
     font-size: 40px;
     margin: 0;
     padding-left: 10px;
+    
 }
 
 
 .container2 a{
     text-decoration: none;
+    width: 100%;
     color: rgb(236, 236, 236);
     display: inline-flexbox;
+    margin: auto;
     
 }
-.container2 h2:hover{
+.items:hover{
     background-color: #393e47;
     cursor: pointer;
 }
 
-.container2 h2{
-    padding: 8.7% 0%;
-}
-
 .project-tab {
+    margin-left: 23%;
+    height: 100%;
+    width: 100%;
     position: fixed;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    left: 18rem;
     border-left: #282b31 solid 10px;
     padding-top: 6%;
     padding-left: 6%;
@@ -181,4 +188,38 @@ html, body{
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2em;
+}
+
+.small-header{
+    height: 100%;
+    width: 10%;
+    float: left;
+    position: fixed;
+    background-image: url(/pics/background_pattern.png);
+    background-position: bottom;
+    background-size: auto;
+    visibility: hidden;
+}
+
+.smallJ{
+    margin-top: 2%;
+    height: 7%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.container3{
+    height: 100%;
+    padding-top: 30%;
+    background-color: rgba(255, 253, 253, 0.9);
+    text-align: center;
+    color: #282b31;
+}
+
+.small-icon2{
+    height: 5%;
+    position: fixed;
+    bottom: 10%;
+    left: 3%;
 }
