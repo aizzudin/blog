@@ -97,6 +97,11 @@ html, body{
     
 }
 
+.items h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 
 .container2 h2{
     color: rgb(236, 236, 236);
