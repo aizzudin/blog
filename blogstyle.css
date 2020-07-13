@@ -15,7 +15,7 @@ html, body{
     width: 23%;
     float: left;
     position: fixed;
-    background-image: url("pics/background pattern.png");
+    background-image: url(pics/background_pattern.png);
     background-position: bottom;
     background-size: auto;
 }
