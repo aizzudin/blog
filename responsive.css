@@ -1,0 +1,72 @@
+@media all and (max-width:670px) {
+
+.small-header{
+    height: 100%;
+    width: 10%;
+    float: left;
+    position: fixed;
+    background-image: url(/pics/background_pattern.png);
+    background-position: bottom;
+    background-size: auto;
+    visibility: visible;
+}
+
+.smallJ{
+    margin-top: 2%;
+    height: 7%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container3{
+    height: 100%;
+    padding-top: 30%;
+    background-color: rgba(255, 253, 253, 0.9);
+    text-align: center;
+    color: #282b31;
+}
+
+.small-icon2{
+    height: 5%;
+    position: fixed;
+    bottom: 10%;
+    left: 3%;
+}
+
+
+
+
+
+.left-tab{
+    display: none;
+}
+
+.main-tab{
+margin-left: 10%;
+}
+
+.project-tab{
+margin-left: 10%;
+}
+
+.projects li{
+    font-size: 20px;
+}
+.projects p{
+    font-size: 12px;
+}
+
+
+.article-container{
+    margin-left: 10%;
+}
+
+.article-container p{
+    font-size: 15px;
+}
+
+.container h2{
+    padding: 10%;
+}
+
+}
